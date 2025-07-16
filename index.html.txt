@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yamini's Project Showcase</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Projects</h1>
+    <p>Explore my web, Java, Python, and .NET work</p>
+  </header>
+
+  <main>
+    <section class="project-grid">
+      <div class="project-card">
+        <h2>Java Projects</h2>
+        <a href="JavaProjects/ProjectOne/index.html">Student Portal</a><br />
+        <a href="JavaProjects/ProjectTwo/index.html">File Parser</a>
+      </div>
+
+      <div class="project-card">
+        <h2>Python Projects</h2>
+        <a href="PythonProjects/Analyzer/index.html">Data Analyzer</a><br />
+        <a href="PythonProjects/Bot/index.html">Chatbot UI</a>
+      </div>
+
+      <div class="project-card">
+        <h2>.NET Projects</h2>
+        <a href="DotnetProjects/Timesheet/index.html">Timesheet App</a><br />
+        <a href="DotnetProjects/Survey/index.html">Survey Form</a>
+      </div>
+
+      <div class="project-card">
+        <h2>Manual Testing Docs</h2>
+        <a href="ManualTestingDocs/TestCases.html">Test Cases</a><br />
+        <a href="ManualTestingDocs/Plans.html">Test Plans</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Yamini | Hosted with ❤️ on GitHub Pages</p>
+  </footer>
+</body>
+</html>

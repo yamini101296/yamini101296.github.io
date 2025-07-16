@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+header, footer {
+  text-align: center;
+  padding: 2em;
+  background: #282c34;
+  color: white;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5em;
+  padding: 2em;
+}
+.project-card {
+  background: white;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.project-card a {
+  display: block;
+  margin: 0.5em 0;
+  color: #007acc;
+  text-decoration: none;
+}
+.project-card a:hover {
+  text-decoration: underline;
+}
